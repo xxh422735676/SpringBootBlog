@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="admin/_fragments_admin ::head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--    <link rel="stylesheet" href="static/Semantic/dist/semantic.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+    <link rel="stylesheet" href="../../static/css/mycss.css" th:href="@{/css/mycss.css}">
+    <title>管理后台</title>
+</head>
+<body class="">
+
+<br>
+<br>
+<br>
+
+<div class="my-container-small my-padded-tb-massive" style="max-width: 30em !important;">
+    <div class="ui container">
+        <div class="ui middle aligned center aligned grid">
+            <div class="column">
+                <h2 class="ui teal image header">
+                    <div class="content">
+                        博客后台登陆
+                    </div>
+                </h2>
+                <form class="ui large form" method="post" action="#" th:action="@{/admin/login}">
+                    <div class="ui segment">
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="username" placeholder="用户名">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" name="password" placeholder="密码">
+                            </div>
+                        </div>
+                        <button class="ui fluid large teal submit button">登   陆</button>
+                    </div>
+
+                    <div class="ui error mini message"></div>
+                    <div class="ui mini negative message" th:unless="${#strings.isEmpty(message)}" th:text="${message}">
+                            用户名或密码错误
+                    </div>
+
+                </form>
+
+                <div class="ui message">
+                    New to us? <a href="#">Sign Up</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<!--<script src="static/js/jquery.min.js"></script>-->
+<!--<script src="static/Semantic/dist/semantic.min.js"></script>-->
+<script>
+
+    $('.menu.toggle').click(function () {
+        $('.j-item').toggleClass('my-mobile-hide');
+    });
+
+    $('#payButton').popup({
+       popup : $('.payQR.popup'),
+        on : 'click',
+        position : 'bottom center'
+    });
+    $('.ui.dropdown').dropdown();
+
+    $('.ui.form').form({
+        fields:{
+            username:{
+                identifier: "username",
+                rules: [{
+                    type:'empty',
+                    prompt: '请输入用户名'
+                }]
+            },
+            password:{
+                identifier: "password",
+                rules: [{
+                    type:'empty',
+                    prompt: '请输入密码'
+                }]
+            }
+        }
+    });
+
+    $(function() {
+        $(function(){
+            //禁用后退按钮
+            if(window.history && window.history.pushState){
+                $(window).on('popstate',function(){
+                    window.history.pushState('forward', null, '#');
+                    window.history.forward(1);
+                });
+            }
+            window.history.pushState('forward', null, '#');//兼容IE
+            window.history.forward(1);
+        });
+    });
+
+</script>
+</body>
+</html>

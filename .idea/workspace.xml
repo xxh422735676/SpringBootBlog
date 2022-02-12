@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae449428-0d3a-4f50-a7ec-489f8257e95a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - blog@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - blog@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - blog@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W3ADogxuVFVPlhMOAjKNafAvnN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql.8&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="50346a2c-736a-4265-b60b-d90ae3746626" />
+    <property name="LombokPluginEnabledInProject" value="false" />
+    <property name="LombokPluginIS_ANNOTATION_PROCESSING_CHECK_Enabled" value="true" />
+    <property name="LombokPluginIS_BUILDER_Enabled" value="true" />
+    <property name="LombokPluginIS_CONSTRUCTOR_Enabled" value="true" />
+    <property name="LombokPluginIS_DELEGATE_Enabled" value="true" />
+    <property name="LombokPluginIS_LOG_Enabled" value="true" />
+    <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="false" />
+    <property name="LombokPluginIS_VAL_Enabled" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog - 副本" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\42273\Desktop\Java_proj\idea_workspace\blog\src\main\resources\templates\admin" />
+      <recent name="C:\Users\42273\Desktop\Java_proj\idea_workspace\blog\src\main\resources\static" />
+      <recent name="C:\Users\42273\Desktop\Java_proj\idea_workspace\blog\src\main\resources\templates" />
+      <recent name="C:\Users\42273\Desktop\Java_proj\idea_workspace\blog\src\main\resources\templates\error" />
+      <recent name="C:\Users\42273\Desktop\Java_proj\idea_workspace\blog\src\main\resources" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.xxh.blog.dbU" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\42273\Desktop\Java_proj\idea_workspace\blog\src\main\resources\templates\admin" />
+      <recent name="C:\Users\42273\Desktop\Java_proj\idea_workspace\blog\src\main\resources\templates\error" />
+      <recent name="C:\Users\42273\Desktop\Java_proj\idea_workspace\blog\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xxh.blog.util.MD5Util" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xxh.blog.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xxh.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="Application.MD5Util" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\42273\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae449428-0d3a-4f50-a7ec-489f8257e95a" name="Default Changelist" comment="" />
+      <created>1578367787984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578367787984</updated>
+      <workItem from="1578367792022" duration="8858000" />
+      <workItem from="1578402097716" duration="257000" />
+      <workItem from="1578402374560" duration="90426000" />
+      <workItem from="1578621856438" duration="5157000" />
+      <workItem from="1579075128836" duration="1337000" />
+      <workItem from="1581916572750" duration="46000" />
+      <workItem from="1586407953535" duration="286000" />
+      <workItem from="1587783283656" duration="1429000" />
+      <workItem from="1592234103703" duration="1040000" />
+      <workItem from="1592314504764" duration="14000" />
+      <workItem from="1592314590457" duration="1477000" />
+      <workItem from="1592387188629" duration="5474000" />
+      <workItem from="1592451993821" duration="1410000" />
+      <workItem from="1592983933763" duration="414000" />
+      <workItem from="1592984375842" duration="2862000" />
+      <workItem from="1594198174634" duration="3301000" />
+      <workItem from="1594386932629" duration="156000" />
+      <workItem from="1626099585925" duration="2841000" />
+      <workItem from="1632271789716" duration="4849000" />
+      <workItem from="1632319067603" duration="3191000" />
+      <workItem from="1633173097668" duration="209000" />
+    </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1594224525540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594224525540</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;test1&quot;&#10;&#10;This reverts commit 7daed4aa">
+      <created>1594225397289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594225397289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="test1" />
+    <MESSAGE value="Revert &quot;test1&quot;&#10;&#10;This reverts commit 7daed4aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;test1&quot;&#10;&#10;This reverts commit 7daed4aa" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="393" y="202" key="#Assign_Data_Sources" timestamp="1632276094885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="393" y="202" key="#Assign_Data_Sources/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632276094885" />
+    <state x="489" y="180" key="#Project_Structure" timestamp="1632271995654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="489" y="180" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632271995654" />
+    <state x="393" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632276033915">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="393" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632276033915" />
+    <state x="728" y="272" key="FileChooserDialogImpl" timestamp="1633173289659">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632274017516" />
+    <state x="728" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1633173289659" />
+    <state width="1553" height="266" key="GridCell.Tab.0.bottom" timestamp="1632278695575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1553" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632278695575" />
+    <state width="1553" height="266" key="GridCell.Tab.0.center" timestamp="1632278695574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1553" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632278695574" />
+    <state width="1553" height="266" key="GridCell.Tab.0.left" timestamp="1632278695574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1553" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632278695574" />
+    <state width="1553" height="266" key="GridCell.Tab.0.right" timestamp="1632278695575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1553" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632278695575" />
+    <state width="1553" height="266" key="GridCell.Tab.1.bottom" timestamp="1632278695575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1553" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632278695575" />
+    <state width="1553" height="266" key="GridCell.Tab.1.center" timestamp="1632278695575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1553" height="266" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632278695575" />
+    <state width="1553" height="266" key="GridCell.Tab.1.left" timestamp="1632278695575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1553" height="266" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632278695575" />
+    <state width="1553" height="266" key="GridCell.Tab.1.right" timestamp="1632278695575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1553" height="266" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632278695575" />
+    <state x="176" y="265" width="1557" height="708" key="SettingsEditor" timestamp="1632273822772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="176" y="265" width="1557" height="708" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632273822772" />
+    <state x="935" y="354" key="com.intellij.ide.util.TipDialog" timestamp="1633173097608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="935" y="354" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1632319067317" />
+    <state x="935" y="354" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1633173097608" />
+    <state x="503" y="139" key="new project wizard" timestamp="1633173303825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="503" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1633173303825" />
+  </component>
+</project>

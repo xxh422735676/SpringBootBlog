@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:fragment="head(title)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--    <link rel="stylesheet" href="static/Semantic/dist/semantic.min.css">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+    <link rel="stylesheet" href="../static/css/mycss.css" th:href="@{/css/mycss.css}">
+    <link rel="stylesheet" href="../static/lib/typo/typo.css" th:href="@{/lib/typo/typo.css}">
+    <link rel="stylesheet" href="../static/lib/animate/animate.css" th:href="@{/lib/animate/animate.css}">
+    <link rel="stylesheet" href="../static/lib/tocbot/tocbot.css" th:href="@{/lib/tocbot/tocbot.css}">
+    <!--    <link rel="stylesheet" href="static/lib/highlight/monokai-sublime.css">-->
+    <link rel="stylesheet" href="../static/lib/prism/prism.css" th:href="@{/lib/prism/prism.css}">
+    <link rel="stylesheet" href="../../static/lib/editor/css/editormd.min.css" th:href="@{/lib/editor/css/editormd.min.css}">
+    <title th:replace="${title}">首页</title>
+</head>
+<body>
+
+<!--  导航  -->
+<nav th:fragment="menu(n)" class="ui inverted attached segment my-padded-tb-mini my-shadow-small">
+    <div class="ui container">
+        <div class="ui inverted stackable secondary menu">
+            <h2 class="ui teal header item">管理后台</h2>
+            <a href="#" th:href="@{/admin/blog-list}" class="j-item my-mobile-hide item" th:classappend="${n==1} ? 'active'"><i class=" home icon"></i>博客</a>
+            <a href="#" th:href="@{/admin/blog-types}"class=" j-item my-mobile-hide item" th:classappend="${n==2} ? 'active'"><i class=" idea icon"></i>分类</a>
+            <a href="#" th:href="@{/admin/blog-tags}"class="j-item my-mobile-hide item" th:classappend="${n==3} ? 'active'"><i class=" tags icon"></i>标签</a>
+            <div class="right j-item my-mobile-hide menu">
+                <div class="item ui dropdown">
+                    <div class="text">
+                        <img src="../../static/img/avatar.png" alt="" class="ui avatar image">
+                        XianghaoXu
+                    </div>
+                    <i class="icon dropdown"></i>
+                    <div class="menu">
+                        <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle button black my-top-right my-mobile-show"><i class="icon sidebar"></i></a>
+</nav>
+
+
+
+
+<!--  底部footer  -->
+<footer th:fragment="footer" class="ui inverted  segment my-padded-tb-massive">
+    <div class="ui inverted  center aligned container">
+        <div class="ui inverted  stackable vertical divided grid my-opacity-mini">
+            <div class="three wide column">
+                <div class="item">
+                    <img src="../static/img/wechat.jpg" th:src="@{/img/wechat.jpg}"alt="" style="width:100px" class="ui centered rounded image">
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="" class="item">用户故事(User Story)</a>
+                    <a href="" class="item">用户故事(User Story)</a>
+                    <a href="" class="item">用户故事(User Story)</a>
+                    <a href="" class="item">用户故事(User Story)</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="" class="item">Emile: 422735676@qq.com</a>
+                    <a href="" class="item">QQ: 422735676</a>
+                    <a href="" class="item"></a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header ">最新博客</h4>
+                <p class="my-opacity-mini">这是我的个人博客，分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助。</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="my-text-thin my-text-spaced my-opacity-large">Copyright &copy; 2019-2020 xmsi Designed by Xianghao Xu</p>
+    </div>
+</footer>
+
+<th:block th:fragment="script">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+    <!--<script src="static/lib/highlight/highlight.pack.js"></script>-->
+    <script src="../static/lib/prism/prism.js" th:src="@{/lib/prism/prism.js}"></script>
+    <script src="../static/lib/tocbot/tocbot.min.js"th:src="@{/lib/tocbot/tocbot.min.js}"></script>
+    <script src="../static/lib/qrcode/qrcode.min.js"th:src="@{/lib/qrcode/qrcode.min.js}"></script>
+    <script src="../static/lib/scroll/jquery.scrollTo.min.js"th:src="@{/lib/scroll/jquery.scrollTo.min.js}"></script>
+    <script src="../static/lib/waypoints/jquery.waypoints.min.js"th:src="@{/lib/waypoints/jquery.waypoints.min.js}"></script>
+    <!--<script src="static/js/jquery.min.js"></script>-->
+    <!--<script src="static/Semantic/dist/semantic.min.js"></script>-->
+</th:block>
+
+</body>
+</html>
